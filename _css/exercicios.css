@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: white;
+	color: black;
+	font-family: Arial, sans-serif;
+}
+
+
+nav#menu
+{
+	display:block;
+}
+
+nav#menu ul
+{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	left: -40px;
+	text-align:center;
+	background-color:#00a110;
+
+}
+
+nav#menu li
+{
+	text-indent: 0px;
+	display: inline-block;
+	padding: 4px;
+	margin: 2px;
+	background-color: #9ec486;
+}
+nav#menu li#home:hover
+{
+	text-decoration: underline;
+	transition: background-color 1s;
+}
+nav#menu li#mecanica:hover
+{
+	background-color:#ff801f;
+	transition: background-color 1s;
+}
+nav#menu li#termodinamica:hover
+{
+	background-color:#ff0303;
+	transition: background-color 1s;
+}
+nav#menu li#ondulatoria:hover
+{
+	background-color:#fffb24;
+	transition: background-color 1s;
+}
+nav#menu li#eletromagnetismo:hover
+{
+	background-color:#0004e8;
+	transition: background-color 1s;
+}
+nav#menu li#fisica-moderna:hover
+{
+	background-color:#f505f1;
+	transition: background-color 1s;
+}
+nav#menu li#matematica:hover
+{
+	background-color:#70faff;
+	transition: background-color 1s;
+}
+nav#menu li#especiais:hover
+{
+	background-color:#6e756f;
+	transition: background-color 1s;
+}
+nav#menu li#exercicios:hover
+{
+	background-color:#00a110;
+	transition: background-color 1s;
+}
+
+nav#menu a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+h1
+{
+	text-align: center;
+}
+
+footer#rodape
+{
+	clear: both;
+	border-top: 2px solid #00a110;
+}
+
+footer#rodape p
+{
+	text-align: center;
+}

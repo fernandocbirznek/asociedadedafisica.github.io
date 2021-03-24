@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body
+{
+	background: url('../_imagens/fundo4.png');
+	color: black;
+	font-family: Arial, sans-serif;
+}
+
+fieldset#temas
+{
+	background: url('../_imagens/mecanica/fundo.png');
+}
+
+nav#menu
+{
+	display:block;
+}
+
+nav#menu ul
+{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	left: -40px;
+	text-align:center;
+}
+
+nav#menu li
+{
+	text-indent: 0px;
+	display: inline-block;
+	padding: 4px;
+	margin: 2px;
+	background-color: #9ec486;
+}
+nav#menu li#home:hover
+{
+	text-decoration: underline;
+	transition: background-color 1s;
+}
+nav#menu li#mecanica:hover
+{
+	background-color:#ff801f;
+	transition: background-color 1s;
+}
+nav#menu li#termodinamica:hover
+{
+	background-color:#ff0303;
+	transition: background-color 1s;
+}
+nav#menu li#ondulatoria:hover
+{
+	background-color:#fffb24;
+	transition: background-color 1s;
+}
+nav#menu li#eletromagnetismo:hover
+{
+	background-color:#0004e8;
+	transition: background-color 1s;
+}
+nav#menu li#fisica-moderna:hover
+{
+	background-color:#f505f1;
+	transition: background-color 1s;
+}
+nav#menu li#matematica:hover
+{
+	background-color:#70faff;
+	transition: background-color 1s;
+}
+nav#menu li#especiais:hover
+{
+	background-color:#6e756f;
+	transition: background-color 1s;
+}
+nav#menu li#exercicios:hover
+{
+	background-color:#00a110;
+	transition: background-color 1s;
+}
+
+nav#menu a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+h1
+{
+	text-align: center;
+}
+
+fieldset#mecanica
+{
+	border: 3px solid orange;
+	margin: 2px;
+}
+
+ul#caixa
+{
+	list-style: none;
+	overflow: hidden;
+}
+ul#caixa li
+{
+	padding:5px;
+	text-align: justify;
+	float: left;
+	width: 310px;
+	height: 200px;
+	margin: 2px;
+	border: 1px solid #ff801f;
+	background-color: #ffffff;
+}
+
+ul#aulas
+{
+	list-style: none;
+	overflow: hidden;
+}
+ul#aulas li
+{
+	padding:5px;
+	text-align: center;
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 2px;
+	border: 1px solid #ff801f;
+}
+
+fieldset ul#aulas a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+ul#caixa li#fotomecanica1
+{
+	background: url('../_imagens/mecanica/cinematica-trem.png') no-repeat;
+	background-position: 50% 98%;
+	background-size: 180px 110px;
+}
+
+ul#caixa li#fotomecanica2
+{
+	background: url('../_imagens/mecanica/dinamica-pendulo.png') no-repeat;
+	background-position: 50% 98%;
+	background-size: 180px 110px;
+}
+
+ul#caixa li#fotomecanica3
+{
+	background: url('../_imagens/mecanica/estatica-torque.png') no-repeat;
+	background-position: 50% 98%;
+	background-size: 180px 110px;
+}
+
+footer#rodape
+{
+	clear: both;
+	border-top: 2px solid #ff801f;
+}
+
+footer#rodape p
+{
+	text-align: center;
+}
